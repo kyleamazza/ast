@@ -1,4 +1,5 @@
 [![main](https://github.com/basketry/ast/workflows/build/badge.svg?branch=main&event=push)](https://github.com/basketry/ast/actions?query=workflow%3Abuild+branch%3Amain+event%3Apush)
+[![latest](https://img.shields.io/npm/v/@basketry/ast)](https://www.npmjs.com/package/@basketry/ast)
 
 # AST
 
