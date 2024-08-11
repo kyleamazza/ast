@@ -1,10 +1,10 @@
 {
   "name": "@basketry/ast",
+  "type": "module",
   "version": "0.0.2",
   "description": "AST support for basketry parsers",
   "main": "./lib/index.js",
   "scripts": {
-    "prebuild": "run-s -s clean lint",
     "build": "tsc",
     "clean": "run-s -s clean:*",
     "clean:output": "rimraf lib",
@@ -40,6 +40,7 @@
     "@types/node": "^17.0.38",
     "@typescript-eslint/eslint-plugin": "^5.22.0",
     "@typescript-eslint/parser": "^5.22.0",
+    "@typespec/compiler": "^0.59.0",
     "eslint": "^8.14.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-import": "^2.25.4",
@@ -48,11 +49,15 @@
     "prettier": "^2.6.2",
     "rimraf": "^3.0.2",
     "ts-jest": "^29.0.3",
+    "tsx": "^4.17.0",
     "typescript": "^4.7.2"
   },
   "dependencies": {
     "basketry": "^0.0.34",
     "json-to-ast": "^2.1.0",
-    "yaml-ast-parser": "^0.0.43"
+    "yaml-ast-parser": "^0.0.43",
+    "@typespec/http": "latest",
+    "@typespec/openapi3": "latest",
+    "@typespec/rest": "latest"
   }
 }

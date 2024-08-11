@@ -4,13 +4,18 @@
     "node": true
   },
   "root": true,
-  "extends": ["prettier"],
+  "extends": [
+    "prettier"
+  ],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
     "project": "tsconfig.eslint.json",
     "sourceType": "module"
   },
-  "plugins": ["@typescript-eslint", "eslint-plugin-import"],
+  "plugins": [
+    "@typescript-eslint",
+    "eslint-plugin-import"
+  ],
   "rules": {
     "@typescript-eslint/adjacent-overload-signatures": "error",
     "@typescript-eslint/no-empty-function": "error",
@@ -21,9 +26,15 @@
     "@typescript-eslint/unified-signatures": "warn",
     "no-param-reassign": "error",
     "import/no-unassigned-import": "warn",
-    "comma-dangle": ["error", "only-multiline"],
+    "comma-dangle": [
+      "error",
+      "only-multiline"
+    ],
     "constructor-super": "error",
-    "eqeqeq": ["warn", "always"],
+    "eqeqeq": [
+      "warn",
+      "always"
+    ],
     "no-cond-assign": "error",
     "no-duplicate-case": "error",
     "no-duplicate-imports": "error",
